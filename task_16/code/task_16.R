@@ -363,8 +363,8 @@ run_full_experiment <- function(){
     res <- run_averaged_sweep(cfg, P_RANGE)
     all_results <- rbind(all_results, res)
   }
-  save(all_results, file = "simulation_results_7.RData")
-  cat("\nExperiment complete. Data saved to 'simulation_results_7.RData'.\n")
+  save(all_results, file = "simulation_results_FULL_MERGED.RData")
+  cat("\nExperiment complete. Data saved to 'simulation_results_FULL_MERGED.RData'.\n")
   return(all_results)
 }
 
